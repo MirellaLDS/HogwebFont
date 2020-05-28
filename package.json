@@ -1,6 +1,10 @@
 {
   "name": "test_command_shell",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.16.3",
+    "yarn": "1.22.4"
+  },
   "description": "test shell",
   "main": "index.js",
   "scripts": {
