@@ -1,0 +1,18 @@
+{
+  "name": "test_command_shell",
+  "version": "1.0.0",
+  "description": "test shell",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mirella Lins",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-powershell": "^4.0.0",
+    "nodemon": "^2.0.4"
+  }
+}
