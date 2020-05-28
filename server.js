@@ -1,12 +1,12 @@
 //Imports
 const express = require('express')
-const Shell = require('node-powershell');
+// const Shell = require('node-powershell');
 
 //Initializer a shell instance
-const ps = new Shell({
-   executionPolicy: 'Bypass',
-   noProfile: true 
-});
+// const ps = new Shell({
+//    executionPolicy: 'Bypass',
+//    noProfile: true 
+// });
 
 //Setup and configure app
 const app = express()
